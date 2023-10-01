@@ -3,7 +3,7 @@ GEM
   specs:
     CFPropertyList (3.0.6)
       rexml
-    activesupport (7.0.5)
+    activesupport (7.0.8)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -155,8 +155,6 @@ GEM
       xcodeproj (>= 1.13.0, < 2.0.0)
       xcpretty (~> 0.3.0)
       xcpretty-travis-formatter (>= 0.0.3)
-    fastlane-plugin-auth0_shipper (0.4.1)
-      semantic (~> 1.5)
     ffi (1.15.5)
     fourflusher (2.3.1)
     fuzzy_match (2.0.4)
@@ -211,8 +209,8 @@ GEM
     memoist (0.16.2)
     mini_magick (4.12.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.2)
-    minitest (5.18.0)
+    mini_portile2 (2.8.4)
+    minitest (5.20.0)
     molinillo (0.8.0)
     multi_json (1.15.0)
     multipart-post (2.3.0)
@@ -220,7 +218,7 @@ GEM
     nap (1.1.0)
     naturally (2.2.1)
     netrc (0.11.0)
-    nokogiri (1.15.2)
+    nokogiri (1.15.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     optparse (0.1.1)
@@ -234,13 +232,12 @@ GEM
       trailblazer-option (>= 0.1.1, < 0.2.0)
       uber (< 0.2.0)
     retriable (3.1.2)
-    rexml (3.2.5)
+    rexml (3.2.6)
     rouge (2.0.7)
     ruby-macho (2.5.1)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     security (0.1.3)
-    semantic (1.6.1)
     signet (0.17.0)
       addressable (~> 2.8)
       faraday (>= 0.17.5, < 3.a)
@@ -249,11 +246,11 @@ GEM
     simctl (1.6.10)
       CFPropertyList
       naturally
-    slather (2.7.4)
+    slather (2.7.5)
       CFPropertyList (>= 2.2, < 4)
       activesupport
       clamp (~> 1.3)
-      nokogiri (>= 1.13.9)
+      nokogiri (>= 1.14.3)
       xcodeproj (~> 1.21)
     terminal-notifier (2.0.0)
     terminal-table (1.8.0)
@@ -274,7 +271,7 @@ GEM
     unicode-display_width (1.8.0)
     webrick (1.8.1)
     word_wrap (1.0.0)
-    xcodeproj (1.22.0)
+    xcodeproj (1.23.0)
       CFPropertyList (>= 2.3.3, < 4.0)
       atomos (~> 0.1.3)
       claide (>= 1.0.2, < 2.0)
@@ -292,8 +289,7 @@ PLATFORMS
 DEPENDENCIES
   cocoapods
   fastlane
-  fastlane-plugin-auth0_shipper
-  slather
+  slather (>= 2.7.5)
 
 BUNDLED WITH
    2.4.10
